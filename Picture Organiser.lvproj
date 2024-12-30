@@ -20,8 +20,8 @@
 		<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Create Folder.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolbox/Utilities/Create Folder.vi"/>
-				<Item Name="Set Pane Orgin 00.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolbox/Utilities/Set Pane Orgin 00.vi"/>
+				<Item Name="Create Folder.vi" Type="VI" URL="/&lt;userlib&gt;/Utilities/Create Folder.vi"/>
+				<Item Name="Set Pane Orgin 00.vi" Type="VI" URL="/&lt;userlib&gt;/Utilities/Set Pane Orgin 00.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -46,7 +46,6 @@
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
@@ -84,6 +83,7 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -109,8 +109,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0BE39F06-942E-4336-8816-10127EC310BF}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Picture Organiser.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Executable/[VersionNumber]/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -120,7 +121,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7D52869C-D553-48B2-9544-AD61E4D33F87}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86B7C353-A423-4E0F-9C48-397DAC204676}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Interface.lvlib/Application UI.vi</Property>

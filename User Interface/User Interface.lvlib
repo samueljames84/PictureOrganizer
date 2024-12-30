@@ -42,5 +42,7 @@
 	</Item>
 	<Item Name="App Template.vit" Type="VI" URL="../App Template.vit"/>
 	<Item Name="Application UI.vi" Type="VI" URL="../Application UI.vi"/>
+	<Item Name="check exiftool.vi" Type="VI" URL="../Sub VIs/check exiftool.vi"/>
 	<Item Name="Configuration UI.vi" Type="VI" URL="../Configuration UI.vi"/>
+	<Item Name="disable all controls.vi" Type="VI" URL="../Sub VIs/disable all controls.vi"/>
 </Library>
