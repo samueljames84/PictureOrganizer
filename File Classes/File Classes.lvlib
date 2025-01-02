@@ -24,6 +24,7 @@
 		<Item Name="exif data cluster.ctl" Type="VI" URL="../Controls/exif data cluster.ctl"/>
 		<Item Name="file operation enum.ctl" Type="VI" URL="../Controls/file operation enum.ctl"/>
 		<Item Name="rename type enum.ctl" Type="VI" URL="../Controls/rename type enum.ctl"/>
+		<Item Name="video exif info cluster.ctl" Type="VI" URL="../Controls/video exif info cluster.ctl"/>
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

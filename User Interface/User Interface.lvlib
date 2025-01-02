@@ -22,15 +22,19 @@
 		<Item Name="registry settings cluster.ctl" Type="VI" URL="../Controls/registry settings cluster.ctl"/>
 	</Item>
 	<Item Name="Sub VIs" Type="Folder">
+		<Item Name="check exiftool.vi" Type="VI" URL="../Sub VIs/check exiftool.vi"/>
 		<Item Name="check settings.vi" Type="VI" URL="../Sub VIs/check settings.vi"/>
 		<Item Name="close log file.vi" Type="VI" URL="../Sub VIs/close log file.vi"/>
 		<Item Name="create log file.vi" Type="VI" URL="../Sub VIs/create log file.vi"/>
+		<Item Name="create temp folder.vi" Type="VI" URL="../Sub VIs/create temp folder.vi"/>
+		<Item Name="disable all controls.vi" Type="VI" URL="../Sub VIs/disable all controls.vi"/>
 		<Item Name="get files list.vi" Type="VI" URL="../Sub VIs/get files list.vi"/>
 		<Item Name="initialize main cluster.vi" Type="VI" URL="../Sub VIs/initialize main cluster.vi"/>
 		<Item Name="log error.vi" Type="VI" URL="../Sub VIs/log error.vi"/>
 		<Item Name="log status.vi" Type="VI" URL="../Sub VIs/log status.vi"/>
 		<Item Name="process selected file.vi" Type="VI" URL="../Sub VIs/process selected file.vi"/>
 		<Item Name="read write configuration.vi" Type="VI" URL="../Sub VIs/read write configuration.vi"/>
+		<Item Name="remove temp folder from config.vi" Type="VI" URL="../Sub VIs/remove temp folder from config.vi"/>
 		<Item Name="Runtime Menu.rtm" Type="Document" URL="../Sub VIs/Runtime Menu.rtm"/>
 		<Item Name="scanner add.vi" Type="VI" URL="../Sub VIs/scanner add.vi"/>
 		<Item Name="scanner delete.vi" Type="VI" URL="../Sub VIs/scanner delete.vi"/>
@@ -40,9 +44,6 @@
 		<Item Name="timeout operation.vi" Type="VI" URL="../Sub VIs/timeout operation.vi"/>
 		<Item Name="update status string.vi" Type="VI" URL="../Sub VIs/update status string.vi"/>
 	</Item>
-	<Item Name="App Template.vit" Type="VI" URL="../App Template.vit"/>
 	<Item Name="Application UI.vi" Type="VI" URL="../Application UI.vi"/>
-	<Item Name="check exiftool.vi" Type="VI" URL="../Sub VIs/check exiftool.vi"/>
 	<Item Name="Configuration UI.vi" Type="VI" URL="../Configuration UI.vi"/>
-	<Item Name="disable all controls.vi" Type="VI" URL="../Sub VIs/disable all controls.vi"/>
 </Library>
