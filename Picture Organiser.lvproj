@@ -20,8 +20,8 @@
 		<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Create Folder.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolbox/Utilities/Create Folder.vi"/>
-				<Item Name="Set Pane Orgin 00.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolbox/Utilities/Set Pane Orgin 00.vi"/>
+				<Item Name="Create Folder.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolBox/Utilities/Create Folder.vi"/>
+				<Item Name="Set Pane Orgin 00.vi" Type="VI" URL="/&lt;userlib&gt;/LVToolBox/Utilities/Set Pane Orgin 00.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -120,7 +120,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9F75FEAC-CB6B-4751-9CE7-0CF5772C1EDB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{96C14DC7-5C25-4C09-A927-92C27A054DD5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Interface.lvlib/Application UI.vi</Property>
