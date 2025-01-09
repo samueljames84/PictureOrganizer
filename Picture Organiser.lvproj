@@ -11,7 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="POC &amp; Testing" Type="Folder" URL="../POC &amp; Testing">
+		<Item Name="_Generic" Type="Folder" URL="../_Generic">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="_Test" Type="Folder" URL="../_Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="EXIF Modifier.lvlib" Type="Library" URL="../EXIF Modifier/EXIF Modifier.lvlib"/>
@@ -89,6 +92,9 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -108,6 +114,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Executable/[VersionNumber]</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/_Generic/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0BE39F06-942E-4336-8816-10127EC310BF}</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
@@ -121,7 +128,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2B4F9266-F493-43E9-964D-1B9CE72CF4F4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A7FE9D42-AE9F-40CC-BF4D-7332B70417E5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/User Interface.lvlib/Application UI.vi</Property>
